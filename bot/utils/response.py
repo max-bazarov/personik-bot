@@ -18,4 +18,4 @@ async def send_response(
     if keyboard:
         args["reply_markup"] = keyboard
 
-    await context.bot.send_message(**args)
+    return await context.bot.send_message(**args)
