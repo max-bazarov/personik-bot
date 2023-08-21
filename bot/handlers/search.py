@@ -1,5 +1,5 @@
-from telegram import Update
 import telegram
+from telegram import Update
 from telegram.ext import ContextTypes
 
 from bot.services.search import GoogleSearch
